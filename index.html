@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    		<meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<title>Falling Sand</title>
+		<script type="module" src="./sketch.js"></script>
+		<style>
+			body {
+				 margin: 0;
+				 padding: 0;
+				 background-color: #444;
+				 min-height: 100vh;
+				 display: flex;
+				 flex-direction: column;
+			}
+			#canvas-container {
+				flex: 1;
+				display: flex;
+				justify-content: center;
+			}
+			canvas {
+				display: block;
+				margin: 0 auto;
+			}
+			header {
+				padding: 20px 0;
+				margin: 0 auto;
+				text-align: center;
+				width: 100%;
+				color: orange;
+				font-size: 300%;
+			}
+			#grey-button {
+				background-color: grey;
+			}
+			#white-button {
+				background-color: white;
+			}
+			#red-button {
+				background-color: red;
+			}
+			#green-button {
+				background-color: green;
+			}
+			#blue-button {
+				background-color: blue;
+			}
+
+			#color-buttons {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				margin-bottom: 20px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header>Falling Sand Demo</header>
+		<div id="color-buttons">
+			<button id="white-button">White</button>
+			<button id="grey-button">Grey</button>
+			<button id="red-button">Red</button>
+			<button id="green-button">Green</button>
+			<button id="blue-button">Blue</button>
+		</div>
+		<div id="canvas-container">
+		</div>
+	</body>
+</html>
