@@ -4,5 +4,5 @@
 
 ---
 
-- Bullet Followed instructional for physics
-- Bullet Developed color change on my own
+- Followed instructional for physics
+- Developed color change on my own
